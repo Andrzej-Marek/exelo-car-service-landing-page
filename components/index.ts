@@ -1,0 +1,11 @@
+export { default as Header } from "./Header/Header";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as HeroArea } from "./HeroArea/HeroArea";
+export { default as FeatureasArea } from "./FeatureasArea/FeatureasArea";
+export { default as WhyChooseUs } from "./WhyChooseUs/WhyChooseUs";
+export { default as ServicesArea } from "./ServicesArea/ServicesArea";
+export { default as CounterArea } from "./CounterArea/CounterArea";
+export { default as FAQArea } from "./FAQArea/FAQArea";
+export { default as CtaArea } from "./CtaArea/CtaArea";
+export { default as Footer } from "./Footer/Footer";
+export { default as ScrollLink } from "./ScrollLink/ScrollLink";
