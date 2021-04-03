@@ -1,6 +1,5 @@
 import "../styles/bootstrap.min.css";
 import "../styles/animate.css";
-
 import "../styles/main.css";
 import "../styles/all.min.css";
 
