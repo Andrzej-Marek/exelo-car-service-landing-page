@@ -17,8 +17,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Serwis Samochodowy EXELO</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charSet="UTF-8" />
+        <meta
+          name="description"
+          content="Serwis Samochodowy EXELO, Serwis Klimatyzacji Samochodowej, Elektryka"
+        />
       </Head>
 
       <Header toggleNavbar={() => toggleIsOpenNavbar(true)} />

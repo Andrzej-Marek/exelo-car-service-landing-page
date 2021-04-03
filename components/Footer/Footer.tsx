@@ -33,6 +33,7 @@ const Footer: FC<Props> = () => {
                   style={{ color: "#0676e8" }}
                   target="_blank"
                   href={Links.FACEBOOK}
+                  rel="noreferrer"
                 >
                   <i className="fab fa-facebook-f"></i>
                   <i className="fab fa-facebook-f"></i>
@@ -41,6 +42,7 @@ const Footer: FC<Props> = () => {
                   style={{ color: "#D9480F" }}
                   href={Links.GOOGLE}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-google"></i>
                   <i className="fab fa-google"></i>
@@ -63,7 +65,7 @@ const Footer: FC<Props> = () => {
               <p className="mb-10">Skontaktuj się z nami</p>
               <ul className="fot-list address-list">
                 <li>
-                  <a href="mailto:firma.exelo@gmail.com">
+                  <a href="mailto:firma.exelo@gmail.com" rel="noreferrer">
                     <span>
                       <i className="far fa-map-marker-alt"></i>
                     </span>{" "}
@@ -71,7 +73,7 @@ const Footer: FC<Props> = () => {
                   </a>
                 </li>
                 <li>
-                  <a href={Links.GOOGLE} target="_blank">
+                  <a href={Links.GOOGLE} target="_blank" rel="noreferrer">
                     <span>
                       <i className="far fa-envelope"></i>
                     </span>{" "}
@@ -79,7 +81,7 @@ const Footer: FC<Props> = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+48794965465">
+                  <a href="tel:+48794965465" rel="noreferrer">
                     <span>
                       <i className="far fa-phone-volume"></i>
                     </span>{" "}

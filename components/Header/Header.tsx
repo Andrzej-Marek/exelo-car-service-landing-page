@@ -17,7 +17,7 @@ const Header: FC<Props> = ({ toggleNavbar }) => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 text-center d-none d-md-block">
               <ul className="cta_list">
                 <li>
-                  <a href={Links.GOOGLE} target="_blank">
+                  <a href={Links.GOOGLE} target="_blank" rel="noreferrer">
                     <i className="fal fa-map-marker-alt"></i> ul. Pszczyńska 116
                     43-254 Warszowice
                   </a>
@@ -37,10 +37,10 @@ const Header: FC<Props> = ({ toggleNavbar }) => {
                 </li>
                 <li>
                   <div className="haeader_social">
-                    <a href={Links.FACEBOOK} target="_blank">
+                    <a href={Links.FACEBOOK} target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href={Links.GOOGLE} target="_blank">
+                    <a href={Links.GOOGLE} target="_blank" rel="noreferrer">
                       <i className="fab fa-google"></i>
                     </a>
                   </div>
