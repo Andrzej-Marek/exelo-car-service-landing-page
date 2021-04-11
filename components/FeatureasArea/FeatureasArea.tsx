@@ -33,7 +33,7 @@ const FeatureasArea: FC<Props> = () => {
                 <img className="block-two" src="/img/icon/1a.png" alt="" />
               </div>
               <div className="features__content">
-                <h4>Mechanika Pojazdow</h4>
+                <h4>Mechanika Pojazdów</h4>
                 <p>Naprawy mechaniczne w 90% marek samochodów</p>
               </div>
             </div>
@@ -52,7 +52,9 @@ const FeatureasArea: FC<Props> = () => {
               </div>
               <div className="features__content">
                 <h4 className="gservice-title">Serwis Klimatyzacji</h4>
-                <p>Pełny serwis klimatyzacji nowy i stary czynnik chłodniczy</p>
+                <p>
+                  Pełny serwis klimatyzacji, nowy i stary czynnik chłodniczy
+                </p>
               </div>
             </div>
           </div>

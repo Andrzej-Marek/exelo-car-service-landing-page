@@ -22,7 +22,7 @@ const HeroArea: FC<Props> = () => {
                   className="semi-title-2 wow fadeInUp2 animated"
                   data-wow-delay=".3s"
                 >
-                  Spawdź serwis EXELO i poznaj nasze podejście do klienta, oraz
+                  Sprawdź serwis EXELO i poznaj nasze podejście do klienta oraz
                   samochodu.
                 </h5>
                 <ul

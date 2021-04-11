@@ -30,15 +30,15 @@ const WhyChooseUs: FC<Props> = () => {
             <div className="chose_wrapper pt-145 pl-100 pb-140 pr-130">
               <div className="section-title white-title text-left mb-40">
                 <h6 className="mb-20">Dlaczego Nasz Serwis?</h6>
-                <h3 className="mb-50">Poznaj nową jakoś obsługi serwisowej</h3>
+                <h3 className="mb-50">Poznaj nową jakość obsługi serwisowej</h3>
               </div>
               <ul className="services_text_list mb-15">
-                <li>Gwarancja na każdy serwis</li>
-                <li>Kontakt na każdym etapie serwisu</li>
+                <li>Gwarancja Na Każdy Serwis</li>
+                <li>Kontakt Na Każdym Etapie Serwisu</li>
                 <li>Markowe Części</li>
                 <li>Rabaty Dla Stałych Klientów</li>
                 <li>Historia Serwisowa</li>
-                <li>Profesionalna Załoga</li>
+                <li>Profesjonalna Załoga</li>
               </ul>
             </div>
           </div>

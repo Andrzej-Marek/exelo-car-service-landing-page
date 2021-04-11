@@ -31,7 +31,7 @@ const CounterArea: FC<Props> = () => {
                 <div className="count-num">
                   <span className="counter">100</span>%
                 </div>
-                <p>Zadowoloncyh klientów</p>
+                <p>Zadowolonych klientów</p>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">

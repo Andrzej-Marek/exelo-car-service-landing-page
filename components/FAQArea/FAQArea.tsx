@@ -26,8 +26,8 @@ const FAQArea: FC<Props> = () => {
           <div className="col-xxl-4 col-xl-5 col-lg-6">
             <div className="faq_wrapper">
               <div className="section-title text-left mb-40">
-                <h6 className="mb-20">Najczęsciej zadawane pytania</h6>
-                <h3>Jesteśmy po to aby Ci pomóc!</h3>
+                <h6 className="mb-20">Najcześciej zadawane pytania</h6>
+                <h3>Jesteśmy po to, aby Ci pomóc!</h3>
               </div>
               <div className="accordion" id="accordionExample">
                 <div className="accordion-item mb-10">
@@ -52,7 +52,7 @@ const FAQArea: FC<Props> = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Tak, wszystkie serwisu umawiane są co do dnia i godziny,
+                        Tak, wszystkie serwisy umawiane są co do dnia i godziny,
                         dzięki czemu wiesz, kiedy Twój samochód jest
                         serwisowany.
                       </p>
@@ -98,7 +98,7 @@ const FAQArea: FC<Props> = () => {
                       aria-controls="collapseThree"
                       onClick={() => toggleOpen("open3")}
                     >
-                      Czy na usługę dostanę gwarancje?
+                      Czy na usługę dostanę gwarancję?
                     </button>
                   </h2>
                   <div
@@ -125,7 +125,7 @@ const FAQArea: FC<Props> = () => {
                       aria-controls="collapseFour"
                       onClick={() => toggleOpen("open4")}
                     >
-                      Jak mogę umówic wizytę?
+                      Jak mogę umówić wizytę?
                     </button>
                   </h2>
                   <div
@@ -135,7 +135,7 @@ const FAQArea: FC<Props> = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      Umoówienie wizyty jest niezwykle proste, wystarczy iż
+                      Umówienie wizyty jest niezwykle proste, wystarczy iż
                       skontaktujesz się na numer telefonu: +48 794 965 465.
                       Znajdziemy odpowiedni termin.
                     </div>
